@@ -1,3 +1,17 @@
+# Project's Title
+Clock
+
+#Project Description 
+The Clock application is an efficient tool designed to display real-time current time with an user-friendly interface
+
+#Features 
+Real-time clock display
+
+#Technologies Used 
+Frontend: React.js 
+Styling: CSS
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
