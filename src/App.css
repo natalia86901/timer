@@ -3,3 +3,10 @@
   min-height: 100vh;
 }
 
+.Time {
+  color: #ffffff;
+  font-size: 100px;
+  position: absolute;
+  left: 500px;
+  top: 200px;
+}

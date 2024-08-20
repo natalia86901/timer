@@ -1,10 +1,10 @@
-import {Component} from "react";
+import { Component } from "react";
 
-export default class Clock extends Component {
+class Clock extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            time: new Date().toLocalTimeString()
+            time: new Date().toLocaleTimeString()
     }
 }
 
@@ -20,12 +20,14 @@ componentWillUnmount() {
 
 tick() {
     this.setState({
-        time: new Date().toLocalTimeString()
+        time: new Date().toLocaleTimeString()
     })
 }
 
 render() {
-    return<p>{ this.state.time }</p>
+    return <p className="Time">{this.state.time}</p>
   }
  
 }
+
+export default Clock;
